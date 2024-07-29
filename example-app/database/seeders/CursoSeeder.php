@@ -13,22 +13,6 @@ class CursoSeeder extends Seeder
      */
     public function run(): void
     {
-        $curso = new Curso();
-        $curso->name = "Laravel";
-        $curso->descripcion = "Laravel descripcion";
-        $curso->categoria = "web";
-        $curso->save();
-
-        $curso = new Curso();
-        $curso->name = "vue.js";
-        $curso->descripcion = "vue.js descripcion";
-        $curso->categoria = "web";
-        $curso->save();
-
-        $curso = new Curso();
-        $curso->name = "java";
-        $curso->descripcion = "java descripcion";
-        $curso->categoria = "back";
-        $curso->save();
+        Curso::factory(50)->create();
     }
 }
