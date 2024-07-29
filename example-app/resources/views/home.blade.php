@@ -5,5 +5,5 @@ Home
 @endsection()
 
 @section('content')
-<h1>Bienvenido a la pagina principal</h1>
+<h1>Bienvenido a la pagina principal8888</h1>
 @endsection()
